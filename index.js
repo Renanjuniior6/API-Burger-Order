@@ -41,12 +41,6 @@ app.delete('/order/:id', (request, response) => {
 })
 
 
-
-
-
-
-
-
 app.listen(port, () => {
     console.log(`💪 Seridor rodando na porta ${port}`)
 })
